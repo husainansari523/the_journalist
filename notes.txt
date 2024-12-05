@@ -1,0 +1,1 @@
+1. on click of search button a form filed dropdown should open to search keywords

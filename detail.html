@@ -1,0 +1,604 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Journalist</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Live Update Bar -->
+    <header>
+        <section class="header-top">
+            <div class="container">
+                <div class="row py-3 justify-content-center align-items-center">
+                    <div class="col-12 px-0">
+                        <h5 class="head-headline-bullet">Live Update</h5>
+                        <p class="head-headline-text">
+                            <span class="head-headline">Odisha to spend ₹855 cr for renovation of Hirakud, its oldest
+                                irrigation system</span>
+                            <span class="head-headline">21-year-old girl from Indore goes missing</span>
+                            <span class="head-headline">Prime Minister Modi to ..</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="header-main">
+            <nav class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-3">
+                        <div class="d-flex justify-content-start">
+                            <a href="#" class="header-btn btn me-3 p-0">Sign In</a>
+                            <a href="#" class="header-btn btn btn-danger p-0">Subscribe</a>
+                        </div>
+                        <div class="d-flex justify-content-start social-icons mt-2">
+                            <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 offset-1">
+                        <div class="row">
+                            <img src="images/logo_full.png" class="img-fluid header-center-logo" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-1">
+                        <ul class="navigation mb-0 mt-2 text-end">
+                            <li><a href="">
+                                    <h5>Marathi</h5>
+                                </a></li>
+                            <li class="nav-divider position-relative"><a href="">
+                                    <h5>Hindi</h5>
+                                </a></li>
+                            <li class="nav-divider position-relative"><a href="">
+                                    <h5>Gujarati</h5>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-11 px-0">
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse header-nav" id="navbarNav">
+                        <ul class="navbar-nav my-2">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Our Purpose</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">India</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">World</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Economy & Business </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Health & Lifestyle </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Infotainment </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Environment </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Thoughts </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Astrology</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Videos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-1">
+                <button class="btn p-0 float-end me-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="main-article">
+        <div class="container">
+            <div class="row mt-5">
+
+                <!-- Left Side -->
+                <div class="col-md-9">
+                    <div class="main-news">
+                        <div class="article-main-heading">
+                            <div class="main-heading">
+                                <div class="position-relative d-flex mb-4">
+                                    <span class="article-heading-yellow-dot"></span>
+                                    <h1 class="fw-semibold ms-5">President of India Droupadi Murmu Begins
+                                        Visit to Malawi
+                                    </h1>
+                                </div>
+                                <div class="d-flex justify-content-between mb-4">
+                                    <div class="fs-5 ms-5">By <a href="#"
+                                            class="position-relative article-by fw-semibold text-decoration-none text-dark">The
+                                            Journalists</a>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <img src="images/share-chip.png" class="img-fluid" style="height: 35px;" alt="">
+                                        <span class="fw-semibold mx-3 fs-5">Share</span>
+                                        <div class="share-container position-relative">
+                                            <div class="share-button bg-transparent pe-0" onclick="toggleShareMenu()">
+                                                <i class="fa-solid fa-share-nodes text-dark fs-3"></i>
+                                            </div>
+                                            <div class="share-social-icons" id="socialIcons">
+                                                <a href="#" class="position-relative social-border-bottom"
+                                                    title="Facebook"><i class="fa-brands fa-facebook-f fs-4"></i></a>
+                                                <a href="#" class="position-relative social-border-bottom"
+                                                    title="Twitter"><i class="fa-brands fa-x-twitter fs-4"></i></a>
+                                                <a href="#" class="position-relative social-border-bottom"
+                                                    title="Instagram"><i class="fa-brands fa-instagram fs-4"></i></a>
+                                                <a href="#" class="position-relative social-border-bottom"
+                                                    title="Youtube"><i class="fa-brands fa-youtube fs-4"></i></a>
+                                                <a href="#" class="position-relative social-border-bottom"
+                                                    title="Linkedin"><i class="fa-brands fa-linkedin fs-4"></i></a>
+                                                <a href="#" title="WhatsApp"><i
+                                                        class="fa-brands fa-whatsapp fs-4"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="position-relative p-0 mb-5">
+                            <div class="main-article-thumbnail overflow-hidden rounded-5">
+                                <img src="images/page1-main-news.png" class="img-fluid" alt="article-thumbnail-img">
+                            </div>
+                            <span class="main-article-chip main-article-chip-bg">National</span>
+
+                        </div>
+
+                        <div class="main-article-paragraph mb-4">
+                            <p class="lh-base" style="text-align: justify;">Nouakchott (Mauritania) : Indian President
+                                Droupadi Murmu, after completing the first phase of
+                                her state visit to three African countries—Algeria, Mauritania, and Malawi—arrived in
+                                Mauritania
+                                for the second phase. In the presence of Mauritanian President Mohamed Ould Ghazouani, a
+                                memorandum of understanding was exchanged between India and Mauritania. She also held
+                                delegation-level talks with the President of the Islamic Republic of Mauritania.
+                                Mauritania's Foreign Minister Mohamed Salem Ould Merzoug also met with President
+                                Droupadi
+                                Murmu.
+                                Today, President Murmu will reach Malawi for the third and final phase of her visit at
+                                the
+                                invitation
+                                of Malawi's President Dr. Lazarus McCarthy Chakwera. She will be in Malawi from October
+                                17
+                                to
+                                19.
+                                President Murmu expressed gratitude to the Mauritanian government and its citizens for
+                                their
+                                support of the Indian community. She stated that India is rapidly moving towards its
+                                goal of
+                                becoming a developed nation by 2047. India can contribute to Mauritania's development
+                                journey
+                                through human resource development, infrastructure, construction, agriculture, health,
+                                education, skill development, and digital innovation. She highlighted the many cultural
+                                similarities between Mauritania and India, particularly in clothing styles, especially
+                                women's attire.
+                            </p>
+                            <br>
+                            <p class="lh-base" style="text-align: justify;">During this visit, President Murmu will hold
+                                bilateral meetings with Malawi's leadership, meet
+                                with prominent business and industry leaders, and engage with the Indian diaspora. She
+                                will
+                                also
+                                tour places of cultural and historical significance. This visit aims to strengthen the
+                                existing
+                                friendly and cordial relations between India and Malawi.
+                                President Murmu expressed gratitude to the Mauritanian government and its citizens for
+                                their
+                                support of the Indian community. She stated that India is rapidly moving towards its
+                                goal of
+                                becoming a developed nation by 2047. India can contribute to Mauritania's development
+                                journey
+                                through human resource development, infrastructure, construction, agriculture, health,
+                                education, skill development, and digital innovation. She highlighted the many cultural
+                                similarities between Mauritania and India, particularly in clothing styles, especially
+                                women's attire.
+                            </p>
+                        </div>
+
+                        <div class="row pt-md-4">
+                            <div class="col-md-8 mb-3">
+                                <p class="mb-3"><b>10:14 AM . Oct 18, 2024</b></p>
+                                <div class="text-align-end">
+                                    <!-- <button style="display: inline-flex; border: none; background: none;"> <img src="images/like-img.png" style="outline: none; height: 30px; margin-right: 10px;" alt=""> <span class="lh-lg">Like</span> </button> -->
+                                    <button class="bottom-icon-btn"> <img src="images/like-img.png"
+                                            class="article-bottom-icon" alt=""> <span class="lh-lg pe-5">Like</span>
+                                    </button>
+                                    <button class="bottom-icon-btn"> <img src="images/thought-img.png"
+                                            class="article-bottom-icon" alt=""> <span class="lh-lg pe-5"> Your Thoughts
+                                        </span> </button>
+                                    <button class="bottom-icon-btn"> <img src="images/link-img.png"
+                                            class="article-bottom-icon" alt=""> <span class="lh-lg pe-5"> Copy Link
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="side-social-icons float-end">
+                                    <span class="icon-wrapper my-3"><i class="fa-brands fa-whatsapp"></i></span>
+                                    <span class="icon-wrapper my-3"><i class="fa-brands fa-facebook-f"></i></span>
+                                    <span class="icon-wrapper my-3"><i class="fa-brands fa-x-twitter"></i></span>
+                                    <span class="icon-wrapper my-3"><i class="fa-brands fa-instagram"></i></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row navigation-wrapper text-center mb-5">
+                            <div class="col-md-6 p-0">
+                                <div class="d-inline-flex align-items-center">
+                                    <div class="col-7 position-relative">
+                                        <span class="navigation-yellow-dot">
+                                        </span>
+                                        <p class="text-start fw-semibold ms-4">Milton tracker: Another major
+                                            hurricane
+                                            forecast to slam
+                                            Florida</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="d-inline-flex">
+                                            <button class="btn m-auto image-button">
+                                                <img src="images/previous-arrow.png" class="button-image"
+                                                    alt="">Previous
+                                                Article
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 p-0">
+                                <div class="d-inline-flex align-items-center">
+                                    <div class="col-5">
+                                        <div class="d-inline-flex">
+                                            <button class="btn m-auto image-button">
+                                                Next
+                                                Article<img src="images/next-arrow.png" class="button-image ms-2"
+                                                    alt="">
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-7 position-relative">
+                                        <span class="navigation-yellow-dot">
+                                        </span>
+                                        <p class="text-start fw-semibold ms-4">Milton tracker: Another major hurricane
+                                            forecast to slam Florida</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-5">
+                            <div class="d-inline-flex align-items-center p-0 mb-4">
+                                <div class="position-relative">
+                                    <h3 class=" medium-yellow-dot fw-semibold ms-4">Related Posts</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 col-sm-6">
+                                <div class="card card-shadow rounded-card position-relative mb-3"
+                                    style="max-width: 100%; overflow: hidden">
+                                    <div class="card-header position-relative fixed-height-1 p-0">
+                                        <img src="images/18.png" class="card-img-top" alt="card-img" />
+                                        <span class="card-chip chip-yellow">World</span>
+                                    </div>
+                                    <div class="card-body">
+                                        <h2 class="card-text fs-6">
+                                            Milton tracker: Another major hurricane forecast to slam Florida
+                                        </h2>
+                                        <p class="card-text pb-3">
+                                            Tropical Storm Milton formed in the Gulf of Mexico on Saturday as
+                                            forecasters
+                                            expect the storm to quickly strengthen into a major hurricane over the next
+                                            few
+                                            days.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-sm-6">
+                                <div class="card card-shadow rounded-card position-relative mb-3"
+                                    style="max-width: 100%; overflow: hidden">
+                                    <div class="card-header position-relative fixed-height-1 p-0">
+                                        <img src="images/18.png" class="card-img-top" alt="card-img" />
+                                        <span class="card-chip chip-yellow">World</span>
+                                    </div>
+                                    <div class="card-body">
+                                        <h2 class="card-text fs-6">
+                                            Milton tracker: Another major hurricane forecast to slam Florida
+                                        </h2>
+                                        <p class="card-text pb-3">
+                                            Tropical Storm Milton formed in the Gulf of Mexico on Saturday as
+                                            forecasters
+                                            expect the storm to quickly strengthen into a major hurricane over the next
+                                            few
+                                            days.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-sm-6">
+                                <div class="card card-shadow rounded-card position-relative mb-3"
+                                    style="max-width: 100%; overflow: hidden">
+                                    <div class="card-header position-relative fixed-height-1 p-0">
+                                        <img src="images/18.png" class="card-img-top" alt="card-img" />
+                                        <span class="card-chip chip-yellow">World</span>
+                                    </div>
+                                    <div class="card-body">
+                                        <h2 class="card-text fs-6">
+                                            Milton tracker: Another major hurricane forecast to slam Florida
+                                        </h2>
+                                        <p class="card-text pb-3">
+                                            Tropical Storm Milton formed in the Gulf of Mexico on Saturday as
+                                            forecasters
+                                            expect the storm to quickly strengthen into a major hurricane over the next
+                                            few
+                                            days.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Right Side -->
+                <div class="col-md-3 ps-md-5">
+                    <div class="ad-section-1 mt-4">
+                        <img src="images/page1-right-adv-img.jpg" alt="" class="img-fluid w-100">
+                    </div>
+                    <div class="sidebar-wrapper ps-md-3">
+                        <div class="position-relative mt-md-5">
+                            <!-- <h3 class="medium-yellow-dot fw-semibold ms-4">At Your Zone</h3> -->
+                            <!-- <h3 class="top-headline ms-4">At Your Zone</h3> -->
+                            <h3 class="article-sidebar">At Your Zone</h3>
+                            <!-- <span class="position-relative aside-heading-bar" style="width: 100%; color: red;"></span> -->
+                            <div class="card headline-card no-border">
+                                <div class="card-body p-0">
+                                    <p>Prime Minister Modi to Address Kautilya Economic Conference Today</p>
+                                    <span class="headline-news-type">National</span>
+                                </div>
+                            </div>
+                            <div class="card headline-card no-border">
+                                <div class="card-body p-0">
+                                    <p>Prime Minister Modi to Address Kautilya Economic Conference Today</p>
+                                    <span class="headline-news-type">Sports</span>
+                                </div>
+                            </div>
+                            <div class="card headline-card no-border">
+                                <div class="card-body p-0">
+                                    <p>Prime Minister Modi to Address Kautilya Economic Conference Today</p>
+                                    <span class="headline-news-type">National</span>
+                                </div>
+                            </div>
+                            <div class="card headline-card no-border">
+                                <div class="card-body p-0">
+                                    <p>Prime Minister Modi to Address Kautilya Economic Conference Today</p>
+                                    <span class="headline-news-type">Infotainment</span>
+                                </div>
+                            </div>
+                            <div class="card headline-card no-border">
+                                <div class="card-body p-0">
+                                    <p>Prime Minister Modi to Address Kautilya Economic Conference Today</p>
+                                    <span class="headline-news-type">National</span>
+                                </div>
+                            </div>
+                            <div class="card headline-card no-border">
+                                <div class="card-body p-0">
+                                    <p>Prime Minister Modi to Address Kautilya Economic Conference Today</p>
+                                    <span class="headline-news-type">World</span>
+                                </div>
+                            </div>
+                            <div class="card headline-card no-border">
+                                <div class="card-body p-0">
+                                    <p>Prime Minister Modi to Address Kautilya Economic Conference Today</p>
+                                    <span class="headline-news-type">National</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ad-section-2 mt-4 pe-md-5">
+                            <img src="images/13.png" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="position-relative mt-md-4">
+                            <h3 class="article-sidebar">Popular Posts</h3>
+                            <div class="card headline-card no-border">
+                                <div class="card-body p-0">
+                                    <p>Prime Minister Modi to Address Kautilya Economic Conference Today</p>
+                                    <span class="headline-news-type">National</span>
+                                </div>
+                            </div>
+                            <div class="card headline-card no-border">
+                                <div class="card-body p-0">
+                                    <p>Prime Minister Modi to Address Kautilya Economic Conference Today</p>
+                                    <span class="headline-news-type">Sports</span>
+                                </div>
+                            </div>
+                            <div class="card headline-card no-border">
+                                <div class="card-body p-0">
+                                    <p>Prime Minister Modi to Address Kautilya Economic Conference Today</p>
+                                    <span class="headline-news-type">National</span>
+                                </div>
+                            </div>
+                            <div class="card headline-card no-border">
+                                <div class="card-body p-0">
+                                    <p>Prime Minister Modi to Address Kautilya Economic Conference Today</p>
+                                    <span class="headline-news-type">Infotainment</span>
+                                </div>
+                            </div>
+                            <div class="card headline-card no-border">
+                                <div class="card-body p-0">
+                                    <p>Prime Minister Modi to Address Kautilya Economic Conference Today</p>
+                                    <span class="headline-news-type">National</span>
+                                </div>
+                            </div>
+                            <div class="card headline-card no-border">
+                                <div class="card-body p-0">
+                                    <p>Prime Minister Modi to Address Kautilya Economic Conference Today</p>
+                                    <span class="headline-news-type">World</span>
+                                </div>
+                            </div>
+                            <div class="card headline-card no-border">
+                                <div class="card-body p-0">
+                                    <p>Prime Minister Modi to Address Kautilya Economic Conference Today</p>
+                                    <span class="headline-news-type">National</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer class="mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <img src="images/logo_white.png" alt="" class="footer-logo img-fluid">
+                </div>
+
+                <div class="col-2 mt-5">
+                    <ul class="footer-links">
+                        <li><a href="">About</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Our Purpose</a></li>
+                        <li><a href="">Site Map</a></li>
+                        <li><a href="">Infotainment</a></li>
+                        <li><a href="">Environment</a></li>
+                        <li><a href="">Thoughts</a></li>
+                        <li><a href="">Videos</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 mt-5">
+                    <ul class="footer-links">
+                        <li><a href="">Subscription</a></li>
+                        <li><a href="">Terms and Services</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Accessinility Support</a></li>
+                        <li><a href="">India</a></li>
+                        <li><a href="">World</a></li>
+                        <li><a href="">Economy & Business</a></li>
+                        <li><a href="">Health & Lifestyle</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 mt-5">
+                    <ul class="footer-links">
+                        <li><a href="">India</a></li>
+                        <li><a href="">World</a></li>
+                        <li><a href="">Economy & Business</a></li>
+                        <li><a href="">Health & Lifestyle</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Our Purpose</a></li>
+                        <li><a href="">Site Map</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 mt-5">
+                    <ul class="footer-links">
+                        <li><a href="">Infotainment</a></li>
+                        <li><a href="">Environment</a></li>
+                        <li><a href="">Thoughts</a></li>
+                        <li><a href="">Videos</a></li>
+                        <li><a href="">Subscription</a></li>
+                        <li><a href="">Terms and Services</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Accessibility Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 mt-5">
+                    <div class="newsletter-section">
+                        <h4>Newsletter</h4>
+                        <p>Join our subscribers list to get the latest news, updates and special offers directly in your
+                            inbox</p>
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                    </div>
+                    <div class="side-social-icons mt-4">
+                        <span class="icon-wrapper"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="icon-wrapper"><i class="fa-brands fa-x-twitter"></i></span>
+                        <span class="icon-wrapper"><i class="fa-brands fa-instagram"></i></span>
+                        <span class="icon-wrapper"><i class="fa-brands fa-youtube"></i></span>
+                        <span class="icon-wrapper"><i class="fa-brands fa-linkedin"></i></span>
+                        <span class="icon-wrapper"><i class="fa-brands fa-whatsapp"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="footer-strip">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <p>Copyright 2024 The Journalists - All Rights Reserved.</p>
+                </div>
+                <div class="col-4">
+                    <p class="float-end"><a href="">Contact</a> | <a href="">Dislaimers</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+
+<script>
+    function toggleShareMenu() {
+        const socialIcons = document.getElementById("socialIcons");
+        socialIcons.style.display = socialIcons.style.display === "flex" ? "none" : "flex";
+    }
+</script>
+
+</html>

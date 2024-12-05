@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Journalist</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Live Update Bar -->
+    <header>
+        <section class="header-top">
+            <div class="container">
+                <div class="header-top-ad-banner text-center">
+                    <img src="./images/header-top-ad-banner.jpg" alt="top_advertise_img">
+                </div>
+            </div>
+        </section>
+
+        <div class="header-main">
+            <nav class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-3">
+                        <div class="d-flex justify-content-start">
+                            <a href="#" class="header-btn btn me-3 p-0">Sign In</a>
+                            <a href="#" class="header-btn btn btn-dark p-0">Subscribe</a>
+                        </div>
+                        <div class="d-flex justify-content-start social-icons mt-2">
+                            <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 offset-1 white-bg-color">
+                        <div class="row">
+                            <img src="images/main-logo.png" class="img-fluid header-center-logo" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-1 pe-4">
+                        <ul class="navigation mb-0 mt-2 text-end">
+                            <li><a href="#">
+                                    <h5 class="fw-3">Marathi.</h5>
+                                </a></li>
+                            <li><a href="#">
+                                    <h5 class="fw-3">Hindi.</h5>
+                                </a></li>
+                            <li><a href="#">
+                                    <h5 class="fw-3">Gujarati.</h5>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="row justify-content-center align-items-center position-relative mb-4">
+            <div class="col-11 px-0">
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse header-nav" id="navbarNav">
+                        <ul class="navbar-nav my-2 w-100 justify-content-between align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Our Purpose</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">India</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">World</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Economy & Business </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Health & Lifestyle </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Infotainment </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Environment </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Thoughts </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Astrology</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Videos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-1">
+                <button class="btn p-0 float-end me-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </div>
+            <span class="navbar-border"></span>
+        </div>
+    </div>
+
+
+    <section class="top-news-section">
+        <div class="container">
+            <div class="row">
+                <!-- Left Side Cards -->
+                <div class="col-md-9">
+
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="card-shadow no-border rounded-card position-relative mb-5">
+                                <div class="position-relative p-0">
+                                    <!-- Carousel Slider Start -->
+                                    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner img-top-rounded">
+                                            <div class="carousel-item active">
+                                                <img src="images/14.png" class="card-img-top img-top-rounded"
+                                                    alt="card-img" />
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/7.png" class="card-img-top img-top-rounded"
+                                                    alt="card-img" />
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/16.png" class="card-img-top img-top-rounded"
+                                                    alt="card-img" />
+                                            </div>
+                                        </div>
+                                        <!-- Carousel Controls -->
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#imageCarousel" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#imageCarousel" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <!-- Carousel Slider End -->
+                                </div>
+                                <div class="card-body border-0 bottom-rounded-card">
+                                    <h2 class="card-text fs-4 pb-2">
+                                        PM Modi to Inaugurate ₹50,000 crore Projects in Maharashtra
+                                    </h2>
+                                    <p class="fs-3 fw-semibold">Prime Minister Narendra Modi will also inaugurate five
+                                        solar parks
+                                        in Maharashtra’s Washim with a total capacity of 19 MW across
+                                        Maharashtra.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="banner-side-news">
+                                <div class="category-title mb-2">
+                                    World
+                                </div>
+                                <h4 class="fs-4 mb-3">Nuclear debate may wedge
+                                    ALP between rock and hard
+                                    place
+                                </h4>
+                                <p class="category-title mb-4">Labor has confirmed two clear lines
+                                    it will pursue through to next year’s
+                                    Labor has confirmed two clear lines
+                                    it will pursue through to next...
+                                </p>
+                                <div class="divider"></div>
+                            </div>
+                            <div class="banner-side-news">
+                                <div class="category-title mb-2">
+                                    Sports
+                                </div>
+                                <h4 class="fs-4 mb-3">Nuclear debate may wedge
+                                    ALP between rock and hard
+                                    place
+                                </h4>
+                                <p class="category-title mb-3">Labor has confirmed two clear lines
+                                    it will pursue through to next year’s
+                                    Labor has confirmed two clear lines
+                                    it will pursue through to next...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- News Cards -->
+                    <div class="row pe-3">
+                        <div class="col-md-4 mb-4">
+                            <div class="card news-card no-border">
+                                <img src="./images/8.png" class="card-img-top news-image" alt="News Image">
+                                <div class="card-body p-0">
+                                    <p class="category-title mt-3">India</p>
+                                    <h4 class="fs-4 text-justiy my-2">Delhi government suspends physical classes
+                                        for Classes
+                                        10, 12 amid pollution</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card news-card no-border">
+                                <img src="./images/10.png" class="card-img-top news-image" alt="News Image">
+                                <div class="card-body p-0">
+                                    <p class="category-title mt-3">Cricket</p>
+                                    <h4 class="fs-4 text-justiy my-2">Virat Kohli picks his greatest
+                                        Test knock in Australia:</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card news-card no-border">
+                                <img src="./images/18.png" class="card-img-top news-image" alt="News Image">
+                                <div class="card-body p-0">
+                                    <p class="category-title mt-3">World</p>
+                                    <h4 class="fs-4 text-justiy my-2">Nuclear debate may wedge
+                                        ALP between rock and hard place</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card news-card no-border">
+                                <img src="./images/10.png" class="card-img-top news-image" alt="News Image">
+                                <div class="card-body p-0">
+                                    <p class="category-title mt-3">Cricket</p>
+                                    <h4 class="fs-4 text-justiy my-2">Virat Kohli picks his greatest
+                                        Test knock in Australia:</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card news-card no-border">
+                                <img src="./images/18.png" class="card-img-top news-image" alt="News Image">
+                                <div class="card-body p-0">
+                                    <p class="category-title mt-3">World</p>
+                                    <h4 class="fs-4 text-justiy my-2">Nuclear debate may wedge
+                                        ALP between rock and hard place</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Mini News Card -->
+                    <div class="row mb-5">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="section-heading position-relative text-start mb-4">
+                                        <span class="fs-4 ms-4 position-relative">India</span>
+                                        <span class="header-bar"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="card mini-news-card">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <img src="./images/news-img-2.png" class="img-fluid mini-card-image"
+                                                    alt="...">
+                                            </div>
+                                            <div class="col-md-8 ps-0 ">
+                                                <div class="card-body p-0">
+                                                    <h4 class="card-title fs-4">Cyber Attack on Uttarakhand's
+                                                        Government System</h4>
+                                                    <p class="category-title py-2">Info released by court reveals document
+                                                        was leaked to lift pressure on PM.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="card mini-news-card">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <img src="./images/0.png" class="img-fluid mini-card-image" alt="...">
+                                            </div>
+                                            <div class="col-md-8 ps-0">
+                                                <div class="card-body p-0">
+                                                    <h4 class="card-title fs-4">Cyber Attack on Uttarakhand's
+                                                        Government System</h4>
+                                                    <p class="category-title py-2">Info released by court reveals document
+                                                        was leaked to lift pressure on PM.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="card mini-news-card">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <img src="./images/15.png" class="img-fluid mini-card-image" alt="...">
+                                            </div>
+                                            <div class="col-md-8 ps-0">
+                                                <div class="card-body p-0">
+                                                    <h4 class="card-title fs-4">Cyber Attack on Uttarakhand's
+                                                        Government System</h4>
+                                                    <p class="category-title py-2">Info released by court reveals document
+                                                        was leaked to lift pressure on PM.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="card mini-news-card">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <img src="./images/19.png" class="img-fluid mini-card-image" alt="...">
+                                            </div>
+                                            <div class="col-md-8 ps-0">
+                                                <div class="card-body p-0">
+                                                    <h4 class="card-title fs-4">Cyber Attack on Uttarakhand's
+                                                        Government System</h4>
+                                                    <p class="category-title py-2">Info released by court reveals document
+                                                        was leaked to lift pressure on PM.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="d-flex explore-more-link float-end">
+                                        <a href="#">Explore More In India
+                                            <img src="./images/explore-more-arrow.png" alt="right-arrow-img"
+                                                class="img-fluid ms-2">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="section-heading position-relative text-start mb-4">
+                                        <span class="fs-4 ms-4 position-relative">India</span>
+                                        <span class="header-bar"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="card mini-news-card">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <img src="./images/news-img-2.png" class="img-fluid mini-card-image"
+                                                    alt="...">
+                                            </div>
+                                            <div class="col-md-8 ps-0 ">
+                                                <div class="card-body p-0">
+                                                    <h4 class="card-title fs-4">Cyber Attack on Uttarakhand's
+                                                        Government System</h4>
+                                                    <p class="category-title py-2">Info released by court reveals document
+                                                        was leaked to lift pressure on PM.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="card mini-news-card">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <img src="./images/0.png" class="img-fluid mini-card-image" alt="...">
+                                            </div>
+                                            <div class="col-md-8 ps-0">
+                                                <div class="card-body p-0">
+                                                    <h4 class="card-title fs-4">Cyber Attack on Uttarakhand's
+                                                        Government System</h4>
+                                                    <p class="category-title py-2">Info released by court reveals document
+                                                        was leaked to lift pressure on PM.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="card mini-news-card">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <img src="./images/15.png" class="img-fluid mini-card-image" alt="...">
+                                            </div>
+                                            <div class="col-md-8 ps-0">
+                                                <div class="card-body p-0">
+                                                    <h4 class="card-title fs-4">Cyber Attack on Uttarakhand's
+                                                        Government System</h4>
+                                                    <p class="category-title py-2">Info released by court reveals document
+                                                        was leaked to lift pressure on PM.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="card mini-news-card">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <img src="./images/19.png" class="img-fluid mini-card-image" alt="...">
+                                            </div>
+                                            <div class="col-md-8 ps-0">
+                                                <div class="card-body p-0">
+                                                    <h4 class="card-title fs-4">Cyber Attack on Uttarakhand's
+                                                        Government System</h4>
+                                                    <p class="category-title py-2">Info released by court reveals document
+                                                        was leaked to lift pressure on PM.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="d-flex explore-more-link float-end">
+                                        <a href="#">Explore More In India
+                                            <img src="./images/explore-more-arrow.png" alt="right-arrow-img"
+                                                class="img-fluid ms-2">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Right Side Cards/Banner -->
+                <div class="col-md-3">
+
+                    <div class="row mb-4">
+                        <div class="top-ad-banner mb-5">
+                            <img src="./images/advertise_right1.png" alt="top-ad-banner" class="img-fluid w-100">
+                        </div>
+                        <div class="position-relative text-start mb-2">
+                            <span class="yellow-pointer"></span>
+                            <span class="fs-4 ms-4">Just In</span>
+                        </div>
+
+                        <div class="position-relative text-start mb-4">
+                            <span class="yellow-mini-pointer"></span>
+                            <span class="border-line"></span>
+                            <span class="category-title ms-4">World</span>
+                            <h5 class="header-text mb-3 ms-4">Nuclear debate may wedge
+                                ALP between rock and hard
+                                place</h5>
+                            <p class="category-title ms-4">Labor has confirmed two clear lines
+                                it will pursue through to next year’s</p>
+                        </div>
+
+                        <div class="position-relative text-start mb-4">
+                            <span class="yellow-mini-pointer"></span>
+                            <span class="border-line"></span>
+                            <span class="category-title ms-4">World</span>
+                            <h5 class="header-text mb-3 ms-4">Nuclear debate may wedge
+                                ALP between rock and hard
+                                place</h5>
+                            <p class="category-title ms-4">Labor has confirmed two clear lines
+                                it will pursue through to next year’s</p>
+                        </div>
+
+                        <div class="position-relative text-start mb-4">
+                            <span class="yellow-mini-pointer"></span>
+                            <span class="border-line"></span>
+                            <span class="category-title ms-4">World</span>
+                            <h5 class="header-text mb-3 ms-4">Nuclear debate may wedge
+                                ALP between rock and hard
+                                place</h5>
+                            <p class="category-title ms-4">Labor has confirmed two clear lines
+                                it will pursue through to next year’s</p>
+                        </div>
+
+                        <div class="d-inline-flex explore-more-link justify-content-end pe-0">
+                            <a href="#">Explore More In India
+                                <img src="./images/explore-more-arrow.png" alt="right-arrow-img" class="img-fluid ms-2">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-end mb-5">
+                        <h3 class="second-headline fs-4 mb-4 ps-3">Stay Connected</h3>
+                        <div class="side-social-icons mb-5">
+                            <span class="icon-wrapper"><i class="fa-brands fa-facebook-f"></i></span>
+                            <span class="icon-wrapper"><i class="fa-brands fa-x-twitter"></i></span>
+                            <span class="icon-wrapper"><i class="fa-brands fa-instagram"></i></span>
+                            <span class="icon-wrapper"><i class="fa-brands fa-youtube"></i></span>
+                            <span class="icon-wrapper"><i class="fa-brands fa-linkedin"></i></span>
+                            <span class="icon-wrapper"><i class="fa-brands fa-whatsapp"></i></span>
+                        </div>
+                        <div class="more-news-card">
+                            <div class="card rounded-4 p-4">
+                                <div class="card-body px-3 py-2">
+                                    <h5 class="card-title pe-4 fs-4 mb-3 text-white">More Local News To You</h5>
+                                    <div class="more-news-btn text-center">
+                                        <a href="#" class="btn btn-warning rounded-5 mb-3 w-100">
+                                            Login to personalize
+                                        </a>
+                                    </div>
+                                    <p class="card-text mini-title text-white">Make every story matter—get news that
+                                        resonates with you through your ABC
+                                        Account.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="position-relative text-start mb-2">
+                            <span class="yellow-pointer"></span>
+                            <span class="fs-4 ms-4">For You</span>
+                        </div>
+
+                        <div class="position-relative text-start mb-4">
+                            <span class="yellow-mini-pointer"></span>
+                            <span class="border-line"></span>
+                            <span class="category-title ms-4">World</span>
+                            <h5 class="fs-4 mb-3 ms-4">Nuclear debate may wedge
+                                ALP between rock and hard
+                                place</h5>
+                            <p class="category-title ms-4">Labor has confirmed two clear lines
+                                it will pursue through to next year’s</p>
+                        </div>
+
+                        <div class="position-relative text-start mb-4">
+                            <span class="yellow-mini-pointer"></span>
+                            <span class="border-line"></span>
+                            <span class="category-title ms-4">World</span>
+                            <h5 class="fs-4 mb-3 ms-4">Nuclear debate may wedge
+                                ALP between rock and hard
+                                place</h5>
+                            <p class="category-title ms-4">Labor has confirmed two clear lines
+                                it will pursue through to next year’s</p>
+                        </div>
+
+                        <div class="position-relative text-start mb-4">
+                            <span class="yellow-mini-pointer"></span>
+                            <span class="border-line"></span>
+                            <span class="category-title ms-4">World</span>
+                            <h5 class="fs-4 mb-3 ms-4">Nuclear debate may wedge
+                                ALP between rock and hard
+                                place</h5>
+                            <p class="category-title ms-4">Labor has confirmed two clear lines
+                                it will pursue through to next year’s</p>
+                        </div>
+
+                        <div class="d-inline-flex explore-more-link justify-content-end pe-0">
+                            <a href="#">Explore More In India
+                                <img src="./images/explore-more-arrow.png" alt="right-arrow-img" class="img-fluid ms-2">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="images/main-logo.png" alt="" class="footer-logo img-fluid">
+                </div>
+
+                <div class="col-2 mt-5">
+                    <ul class="footer-links">
+                        <li><a href="">About</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Our Purpose</a></li>
+                        <li><a href="">Site Map</a></li>
+                        <li><a href="">Infotainment</a></li>
+                        <li><a href="">Environment</a></li>
+                        <li><a href="">Thoughts</a></li>
+                        <li><a href="">Videos</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 mt-5">
+                    <ul class="footer-links">
+                        <li><a href="">Subscription</a></li>
+                        <li><a href="">Terms and Services</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Accessibility Support</a></li>
+                        <li><a href="">India</a></li>
+                        <li><a href="">World</a></li>
+                        <li><a href="">Economy & Business</a></li>
+                        <li><a href="">Health & Lifestyle</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 mt-5">
+                    <ul class="footer-links">
+                        <li><a href="">India</a></li>
+                        <li><a href="">World</a></li>
+                        <li><a href="">Economy & Business</a></li>
+                        <li><a href="">Health & Lifestyle</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Our Purpose</a></li>
+                        <li><a href="">Site Map</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 mt-5">
+                    <ul class="footer-links">
+                        <li><a href="">Infotainment</a></li>
+                        <li><a href="">Environment</a></li>
+                        <li><a href="">Thoughts</a></li>
+                        <li><a href="">Videos</a></li>
+                        <li><a href="">Subscription</a></li>
+                        <li><a href="">Terms and Services</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Accessibility Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 mt-5">
+                    <div class="newsletter-section">
+                        <h4>Newsletter</h4>
+                        <p>Join our subscribers list to get the latest news, updates and special offers directly in your
+                            inbox</p>
+                        <input type="email" class="form-control" placeholder="">
+                    </div>
+                    <div class="side-social-icons mt-4">
+                        <span class="icon-wrapper"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="icon-wrapper"><i class="fa-brands fa-x-twitter"></i></span>
+                        <span class="icon-wrapper"><i class="fa-brands fa-instagram"></i></span>
+                        <span class="icon-wrapper"><i class="fa-brands fa-youtube"></i></span>
+                        <span class="icon-wrapper"><i class="fa-brands fa-linkedin"></i></span>
+                        <span class="icon-wrapper"><i class="fa-brands fa-whatsapp"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="footer-strip">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <p>Copyright 2024 The Journalists - All Rights Reserved.</p>
+                </div>
+                <div class="col-4">
+                    <p class="float-end"><a href="">Contact</a> | <a href="">Dislaimers</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+
+</html>
